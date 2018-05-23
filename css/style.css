@@ -1,0 +1,121 @@
+*{
+  margin:0;
+  padding:0;
+}
+p {
+    
+    background-color: rgba(0, 0, 0, 0.28);
+}
+span{
+  color: #fffc00;
+    text-transform: uppercase;
+}
+
+body{
+  color:black;
+  margin:0;
+  font-famiy:Arial,Helvetica;
+  font-size:17px;
+  line-height:1.6;
+  background-color:fcfcfc;
+}
+
+#showcase{
+  
+  background-image:url('../images/arid-clouds-desert.jpg');
+  height:100vh;
+  background-size:cover;
+  background-position:center;
+  color:#fff1e7;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
+  text-align:center;
+}
+
+
+#showcase h1{
+  font-size:55px;
+  line-height:1.2;
+  background-color: rgba(0, 0, 0, 0.28);
+}
+
+#showcase p{
+  font-size:20px;
+  margin-top:10px;
+}
+
+#showcase .button{
+  font-size:18px;
+  text-decoration:none;
+  color:#efe9de ;
+  border:#393a39  solid 1px;
+  padding:10px 20px;
+  border-radius:10px;
+  margin-top:10px;
+  
+}
+
+#showcase .button:hover{
+  background-color:rgb(107, 88, 69);;
+    color:rgb(255, 241, 231) ;
+  border: #896849 solid 1px;
+}
+#section-a div{
+  height:50vh;
+ 
+  margin:7px;
+  text-align:justify;
+  padding:10px;
+}
+#section-a{
+     background-color: #f7f7f7;
+  width:85%;
+  margin:auto;
+  margin-top:10px;
+  display:flex;
+  align-items:baseline;
+  overflow:hidden;
+}
+
+.f1 {
+    max-height: 39vh;
+    align-self:center;
+      background-color: rgb(142, 124, 97);
+    color: #fdfdfd;
+ 
+}
+
+.f3{
+  max-height: 30vh;
+    align-self: flex-end;
+  background-color: #ccc6bb;
+    color: #533f2d;
+}
+
+.f2{
+      background-color: rgb(106, 111, 108);
+    color: rgb(219, 213, 201);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
